@@ -37,8 +37,8 @@ export const GET: APIRoute = async () => {
 
         const key = file.replace(/\.(tsx|astro)$/, "");
 
-        // Skip the canvas editor itself
-        if (key === "CanvasEditor") continue;
+        // Skip the canvas editor and page builder
+        if (key === "CanvasEditor" || key === "PageBuilder") continue;
 
         // Convert PascalCase to display name
         const name = key.replace(/([A-Z])/g, " $1").trim();

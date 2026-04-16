@@ -1,23 +1,8 @@
 {
   "pages": {
     "index": {
-      "sections": [
-        {
-          "id": "hero-1",
-          "component": "Hero",
-          "type": "react",
-          "props": {}
-        },
-        {
-          "id": "cta-1",
-          "component": "CTA",
-          "type": "astro",
-          "props": {}
-        }
-      ],
-      "gaps": [
-        0
-      ],
+      "sections": [],
+      "gaps": [],
       "target": "src/pages/index.astro"
     }
   }
